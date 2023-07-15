@@ -1,6 +1,6 @@
 ## Start Machine Leareing Project.
 
-### Sofware and account Requirement.
+### Software and account Requirement.
 
 1. [Github Account](https://github.com)
 2. [Heroku Account](https://dashboard.heroku.com/loging)
