@@ -7,7 +7,10 @@
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
 5. [GIT Documention](https://git-scm.com/docs/gittutorial)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6f00b28db77347e6f468305b530595d8ce561ff
 
 Creating Conda evvironment
 ```
@@ -58,6 +61,7 @@ To check remote url
 ```
 git remote -v
 ```
+<<<<<<< HEAD
 To setup CT/CD pipline in heroku we need 3 information
 
 1. RENDER_EMAIL: pankajraj7651@gmail.com
@@ -69,3 +73,6 @@ BUILD DOCKER IMAGE
 docker build -t <image_name>:<tagname> .
 ```
 > Note: Image name for docker must be lowercase
+=======
+
+>>>>>>> a6f00b28db77347e6f468305b530595d8ce561ff
