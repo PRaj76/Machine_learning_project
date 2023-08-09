@@ -3,7 +3,7 @@
 ### Software and account Requirement.
 
 1. [Github Account](https://github.com)
-2. [Heroku Account](https://dashboard.heroku.com/loging)
+2. [Render Account](https://dashboard.render.com/loging)
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
 5. [GIT Documention](https://git-scm.com/docs/gittutorial)
@@ -58,4 +58,14 @@ To check remote url
 ```
 git remote -v
 ```
+To setup CT/CD pipline in heroku we need 3 information
 
+1. RENDER_EMAIL: pankajraj7651@gmail.com
+2. RENDER_API_KEY: rnd_af0b8fI4zTKZbmuhthlkrvFP9ZJa
+3. RENDER_APP_NAME: ml-regression-app
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+> Note: Image name for docker must be lowercase
