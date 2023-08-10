@@ -88,5 +88,5 @@ docker ps
 
 To stop docker conatiner
 ```
-docker stop<continer_id>
+docker stop  <continer_id>
 ```
