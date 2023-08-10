@@ -57,7 +57,7 @@ To check remote url
 ```
 git remote -v
 ```
-To setup CT/CD pipline in heroku we need 3 information
+To setup CT/CD pipline in Render we need 3 information
 
 1. RENDER_EMAIL: pankajraj7651@gmail.com
 2. RENDER_API_KEY: rnd_af0b8fI4zTKZbmuhthlkrvFP9ZJa
