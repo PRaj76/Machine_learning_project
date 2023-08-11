@@ -22,6 +22,8 @@ jobs:
       - name: Build, Push and Release a Docker container to Render. # Your custom step name
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service-id: ${{ secrets.RENDER_SERVICE }}
-          api-key: ${{ secrets.MY_RENDER_API_KEY }}
+          # service-id: ${{ secrets.RENDER_SERVICE }}
+          service-id: ${{ secrets.RENDER_USERNAME }}
+          api-key: ${{ secrets.MY_RENDER_PASSWORD }}
+          #api-key: ${{ secrets.MY_RENDER_API_KEY }}
           # Below you must provide variables for your Render app.
