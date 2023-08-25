@@ -2,4 +2,4 @@ numpy
 Flask
 gunicorn
 sklearn
-pandasp
+pandas
