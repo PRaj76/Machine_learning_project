@@ -10,10 +10,10 @@
 
 Creating Conda evvironment
 ```
-
+conda create -n <ENV-NAME> python=3.7 anaconda
 ```
 ```
-conda activate venv/
+conda activate <ENV-NAME>
 ```
 ```
 pip install -r requirements.txt
