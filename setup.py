@@ -3,7 +3,7 @@ from typing import List
 
 #Declaring variables for setup functions
 PROJECT_NAME="housing-predictor" 
-VERSION="0.0.1"
+VERSION="0.0.3"
 AUTHOR="Panakj Raj"
 DESRCIPTION="This is a first FSDS Nov batch Machine Learing Project"
 
@@ -23,12 +23,12 @@ def get_requirements_list()->[str]:
         return requirement_file.readlines().remove("-e .")
 
 setup(
-name=PROJECT_NAME,
-version=VERSION,
-author=AUTHOR,
-description=DESRCIPTION,
-packages=find_packages, #["housing"]
-install_requires=get_requirements_list()
+    name=PROJECT_NAME,
+    version=VERSION,
+    author=AUTHOR,
+    description=DESRCIPTION,
+    packages=find_packages, #["housing"]
+    install_requires=get_requirements_list()
 
 
 
