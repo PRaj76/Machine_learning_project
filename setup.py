@@ -6,7 +6,7 @@ PROJECT_NAME="housing-predictor"
 VERSION="0.0.3"
 AUTHOR="Panakj Raj"
 DESRCIPTION="This is a first FSDS Nov batch Machine Learing Project"
-
+PACKAGES= "housing"
 REQUIREMENTS_FILE_NAME="requirements.txt"
 
 
@@ -27,7 +27,7 @@ setup(
     version=VERSION,
     author=AUTHOR,
     description=DESRCIPTION,
-    packages=find_packages, #["housing"]
+    packages=PACKAGES, #["housing"]
     install_requires=get_requirements_list()
 
 
