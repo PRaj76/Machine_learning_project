@@ -10,10 +10,11 @@
 
 Creating Conda evvironment
 ```
-conda create -n <ENV-NAME> python=3.7 anaconda
+conda create -p venv python==3.7 -y
 ```
 ```
-conda activate <ENV-NAME>
+
+conda activate venv/
 ```
 ```
 pip install -r requirements.txt
@@ -94,3 +95,4 @@ docker stop  <continer_id>
 ```
 python setup.py install
 ```
+
